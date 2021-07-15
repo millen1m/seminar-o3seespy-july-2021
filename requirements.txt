@@ -1,4 +1,7 @@
-
+numpy
+o3seespy
 matplotlib
 bwplot
 engformat>=0.1.3
+geofound
+pandas

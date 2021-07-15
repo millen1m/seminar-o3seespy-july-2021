@@ -1,0 +1,80 @@
+{
+    "name": "",
+    "units": null,
+    "doi": "",
+    "sfsimodels_version": "0.9.36",
+    "comments": "",
+    "models": {
+        "soil": {
+            "1": {
+                "base_type": "soil",
+                "type": "soil",
+                "stype": "soil",
+                "g_mod": 25000000.0,
+                "bulk_mod": 54166666.66666666,
+                "poissons_ratio": 0.3,
+                "phi": 0.0,
+                "e_curr": 0.573939393939394,
+                "specific_gravity": 2.65,
+                "unit_dry_weight": 16500.0,
+                "unit_sat_weight": 20073.584905660373,
+                "cohesion": 60000.0,
+                "gravity": 9.8,
+                "wmd": 1000,
+                "liq_sg": 1,
+                "unique_hash": "67ee59022b350293958520c4a6eabff3",
+                "id": 1
+            }
+        },
+        "soil_profile": {
+            "1": {
+                "gwl": 1000000.0,
+                "unit_water_weight": 9800.0,
+                "layers": [
+                    {
+                        "soil_id": 1,
+                        "soil_unique_hash": "67ee59022b350293958520c4a6eabff3",
+                        "depth": 0.0
+                    }
+                ],
+                "height": 12.0,
+                "x_angles": [
+                    0.0,
+                    0.0
+                ],
+                "unique_hash": "74535ad6aaa350995802c795bef4db93",
+                "id": 1
+            }
+        },
+        "foundation": {
+            "1": {
+                "id": 1,
+                "base_type": "foundation",
+                "type": "raft_foundation",
+                "width": 5.0,
+                "length": 7.0,
+                "depth": 1.5,
+                "height": 2.0,
+                "density": 1142.857142857143,
+                "mass": 80000.0,
+                "x_bd": 0.0,
+                "ip_axis": "length",
+                "unique_hash": "91d4a16b9ab6289f870d592ba74aaed3"
+            }
+        },
+        "building": {
+            "1": {
+                "base_type": "building",
+                "type": "sdof",
+                "h_eff": 10.0,
+                "mass_eff": 300000.0,
+                "t_fixed": 1.1,
+                "foundation_id": 1,
+                "x_fd": 0.0,
+                "xi": 0.05,
+                "unique_hash": "4c2ced2e05268604da3ea5a9c3f1ea5a",
+                "id": 1
+            }
+        }
+    }
+}
